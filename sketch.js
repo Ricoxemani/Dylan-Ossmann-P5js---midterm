@@ -22,9 +22,9 @@ function draw() {
 
   //background
   push();
-  resetMatrix(); // clear transforms
+  resetMatrix();
   noStroke();
-  fill(0, 0, 0, 50); // lower alpha = longer trails
+  fill(0, 0, 0, 50); 
   translate(0, 0, -50);
   scale(2);
   rect(-width/2, -height/2, width, height);
